@@ -7,10 +7,7 @@ for p in range(0,int(z)):
     k = k +int(u)
     k = k -int(q)
     print("Es sind", k,"Leute im Bus")
-        if(k>60):
-            print("Es sind zu viele Leute im Bus!")
-
-
-
-
-print("Es sind noch ", k,"Leute im Bus")
+    if(k>60):
+        print("Es sind zu viele Leute im Bus!")
+        r = k-60
+        print("Es müssen", r,"Leute austeigen")
