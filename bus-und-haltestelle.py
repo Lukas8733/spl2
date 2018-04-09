@@ -6,5 +6,11 @@ for p in range(0,int(z)):
     q = input("Wie viele Leute steigen aus?")
     k = k +int(u)
     k = k -int(q)
+    print("Es sind", k,"Leute im Bus")
+        if(k>60):
+            print("Es sind zu viele Leute im Bus!")
+
+
+
 
 print("Es sind noch ", k,"Leute im Bus")
